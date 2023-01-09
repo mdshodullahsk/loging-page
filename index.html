@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loging form</title>
+    <style>
+        .loging-form {
+            
+            display: flex;
+            flex-direction: column;
+            width: 250px;
+            border: 1px solid blue;
+        }
+        .loging-form>input {
+            margin: 1em;
+            padding: 5px;
+        }
+        .loging-form>input[type="submit"] {
+            background-color: rgb(93, 105, 212);
+            border-radius: 5px;
+            border: 0;
+            padding: 10px;
+            color: white;
+            /* margin: 0 60px 10px; */
+
+
+        }
+        .loging-form>input[type="reset"] {
+            background-color: red;
+            border: 0;
+            border-radius: 5px;
+            padding: 10px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Please Loging</h1>
+    <form action="" class="loging-form">
+
+        <input type="email" name="email" id="" placeholder="Enter Your Email" required>
+        <input type="password" name="password" id="" placeholder="Enter Your Password" required>
+        <input type="submit" value="Loging">
+        <input type="reset" value="Reset">
+
+    </form>
+</body>
+</html>
